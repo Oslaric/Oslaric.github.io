@@ -1,2 +1,252 @@
-.meng{
+/*
+    设置字体的大小
+        em - Relative to the font-size of the element (2em means 2 times the size of the current font)
+        rem - Relative to font-size of the root element
+    参考:
+        https://stackoverflow.com/questions/36067634/changing-css-font-size-alters-other-em-settings
+
+*/
+
+html.textSize14, .textSize14 body { font-size: 14px !important; }
+html.textSize16, .textSize16 body { font-size: 16px !important; }
+html.textSize18, .textSize18 body { font-size: 18px !important; }
+html.textSize20, .textSize20 body { font-size: 20px !important; }
+html.textSize22, .textSize22 body { font-size: 22px !important; }
+html.textSize24, .textSize24 body { font-size: 24px !important; }
+html.textSize26, .textSize26 body { font-size: 26px !important; }
+html.textSize28, .textSize28 body { font-size: 28px !important; }
+html.textSize30, .textSize30 body { font-size: 30px !important; }
+html.textSize32, .textSize32 body { font-size: 32px !important; }
+html.textSize34, .textSize34 body { font-size: 34px !important; }
+html.textSize36, .textSize36 body { font-size: 36px !important; }
+html.textSize38, .textSize38 body { font-size: 38px !important; }
+html.textSize40, .textSize40 body { font-size: 40px !important; }
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2;
 }
+h2 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 1.17em;
+    line-height: 1.2;
+}
+h4 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+h5 {
+    font-size: 0.83em;
+    line-height: 1.2;
+}
+h6 {
+    font-size: 0.67em;
+    line-height: 1.2;
+}
+body {
+    word-break: break-word !important;
+    -webkit-hyphens: auto !important;
+    hyphens: auto !important;
+}
+p, span, div {
+    font-size: 1em;
+    line-height: 1.5 !important;
+}
+
+
+p[class], span[class], div[class] {
+    font-size: 1em;
+    line-height: 1.5 !important;
+}
+
+
+
+/*
+ * fonts  family 设置 
+ */
+@font-face
+{
+    font-family: 'OpenSans';
+    src: url('feelwithme-fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'OpenSans';
+    src: url('feelwithme-fonts/OpenSans/OpenSans-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+/*
+ *
+ * Font classes
+ *
+ */
+
+ .open-sans, .open-sans p, .open-sans span, .open-sans div { font-family: "OpenSans", sans-serif !important; }
+
+
+
+/*
+    设置 mark 的 style
+    safari 貌似不支持直接在 text-decoration 上面写完所有的 配置项 ,得分别放在 text-decoration-color , text-decoration-style 上面 
+*/
+/* orange */
+.mark-A {
+    /* background-color: #FFA500; */
+    background-color: rgba(255, 149, 0, 1.0)
+}
+
+/* green */
+.mark-B {
+    /* background-color: #00FF00; */
+    background-color: rgba(52, 199, 89, 1.0)
+}
+
+/* red */
+.mark-C {
+    /* background-color: #FF0000; */
+    background-color: rgba(255, 59, 48, 1.0)
+}
+
+/* purple */
+.mark-D {
+    /* background-color: #A020F0; */
+    background-color: rgba(175, 82, 222, 1.0)
+}
+
+/* blue */
+.mark-E {
+    /* text-decoration-color: #0000ff ; */
+    text-decoration-color: rgb(0,122,255) ;
+    text-decoration: underline ;
+    text-decoration-style: solid ;
+}
+
+
+.marker-note{
+    /* light-mode 的时候 , note 标记的圆点为 黑色  */
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="black"/></svg>');
+    background-origin: border-box;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    /* background-size: 0.3em 0.3em; */
+    background-size: 5px 5px;
+}
+
+/* .marker-note.mark-A{
+
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="purple"/></svg>'); 
+}
+
+.marker-note.mark-B{
+
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="red"/></svg>'); 
+}
+
+.marker-note.mark-C{
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="green"/></svg>'); 
+}
+
+.marker-note.mark-D{
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="yellow"/></svg>'); 
+}
+
+.marker-note.mark-E{
+    background-image : url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="black"/></svg>'); 
+}  */
+
+
+/*
+ *
+ * dark mode
+ * refer :  https://stackoverflow.com/questions/57203909/how-to-use-ios-13-darkmode-for-wkwebview
+ */
+@media (prefers-color-scheme : dark) {
+    body {
+        background-color: rgb(38, 38, 41);
+        color: white;
+    }
+
+    a:link {
+        color: #0096e2;
+    }
+
+    a:visited {
+        color: #9d57df;
+    }
+
+    .mark-A {
+        background-color: rgba(255, 159, 10, 1.0)
+    }
+
+    .mark-B {
+        background-color: rgba(48, 209, 88, 1.0)
+    }
+
+    .mark-C {
+        background-color: rgba(255, 69, 58, 1.0)
+    }
+
+    .mark-D {
+        background-color: rgba(191, 90, 242, 1.0)
+    }
+
+    .mark-E {
+        text-decoration-color: rgba(10, 132, 255, 1.0);
+        text-decoration: underline;
+        text-decoration-style: solid;
+    }
+
+    .marker-note {
+        background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="white"/></svg>');
+    }
+
+}
+
+
+
+
+
+
+
+/*
+    为什么要加这个?
+    某些电子书 设置 封面 的时候 ,采用 svg ,并且 width="100%" height="100%" , 并且这个封面是 document 里面唯一 的 element . (比如封面)
+        这样就导致: 如果 WKWebview 的高度设置为0 , 那么通过 js 获取到的 document 的高度就为 0 .  这样就会导致获取 document 的高度为 0 .
+        如果 WKWebview 约定了一个初始化的高度 , 图片就会溢出 viewport 
+
+    为什么不可以加这个 : 
+        吴军的 <文明之光> 里面, 就用到了 <img height=12 width=12 src="xxx.jpg" / >  这样的语法 来创建一个很小的图片标注 .
+        如果加了下面这一段 ,就会覆盖掉 img 的 height width 属性 ,导致一个很小的图片变得很大 
+    
+    结论 : 尽量不要增加 css , 加的越多 bug 越多 . 因为加 css 就意味着 有了 假设 ,而这个假设 很可能和 电子书的内置的 css 产生冲突 . 
+    
+
+    svg , img , image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+ */
+
+/*
+ from FolioReaderKit
+ Begin Ted 
+ 
+ max-width 不能写具体的数字 ,因为 image 真的会到达你写的那个值,导致超过了 手机屏幕的宽度 . 只能够写 100%
+ */
+ img, svg, audio, video {
+    min-width: 1px !important;
+    max-width: 100% !important; 
+    min-height: 1px !important;
+    max-height: 95% !important;
+    height: auto !important; /* 这一行是我自己加的,不加的话 无法约束图片的高度 ,导致 高度 陷入死循环般的扩张  , 值 auto 也行 auto 比 fit-content 显示效果好一些 ,决定用  auto */
+    box-sizing: border-box;
+    object-fit: contain !important;
+    page-break-inside: avoid;
+}
+/* End Ted */
