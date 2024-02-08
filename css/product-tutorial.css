@@ -1,0 +1,7 @@
+header , footer , aside{
+	display : none !important
+}
+img {
+    width: 414pt;
+    height: auto; /* Let the height scale proportionally */
+}
