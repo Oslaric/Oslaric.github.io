@@ -1,0 +1,40 @@
+Privacy Policy
+
+Information Collection and Use
+
+The BookThoughts app collects certain non-personal information solely for the purpose of enhancing user experience. The information collected includes the iOS version, hardware platform, and a device's unique identifier. None of this information pertains to personal privacy.
+
+Log Data
+
+When using the BookThoughts app, non-personal log data may be collected in case of errors. This log data includes information such as the device's Internet Protocol ("IP") address, device name, operating system version, app configuration, usage timestamps, and other statistics.
+
+Cookies
+
+The BookThoughts app does not utilize cookies for any purpose. However, third-party code and libraries incorporated into the app may use cookies to enhance their services. Users have the option to accept or reject these cookies within their device settings.
+
+Service Providers
+
+The BookThoughts app may engage third-party companies and individuals to facilitate services, provide technical support, or analyze usage patterns. These service providers may access non-personal information for these purposes but are strictly prohibited from disclosing or using this information for any other reason.
+
+Security
+
+While we strive to use commercially acceptable means to safeguard non-personal information, it's important to note that no method of transmission over the internet or electronic storage is entirely secure. Therefore, absolute security of data cannot be guaranteed.
+
+Links to Other Sites
+
+The BookThoughts app may contain links to external websites or services. These sites are not operated by us, and we have no control over their content or privacy practices. Users are advised to review the privacy policies of these external sites before providing any personal information.
+
+Children’s Privacy
+
+The BookThoughts app does not knowingly collect any personally identifiable information from children. We encourage parents and guardians to monitor their children's internet usage and instruct them not to submit any personal information through the app without proper consent. If it is discovered that a child has provided personal information, please contact us immediately.
+
+Changes to This Privacy Policy
+
+This Privacy Policy may be updated periodically. Users are encouraged to review this policy regularly for any changes. Updates will be posted on this page, and users will be notified of any significant modifications.
+
+This policy is effective as of 2024.02.04.
+
+Contact Us
+
+If you have any questions or concerns about our Privacy Policy, please contact us at oslaric@outlook.com.
+
